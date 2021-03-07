@@ -43,3 +43,24 @@ h2 {
 .link:hover {
   border: 2px dashed var(--navy);
 }
+.linked {
+  text-decoration: underline;
+  color: var(--navy);
+}
+.linked:visited {
+  color: var(--navy);
+  text-decoration: underline;
+}
+.contact-name {
+  font-size: 150%;
+  margin: 5% auto;
+  text-align: center;
+}
+.contact-info {
+  display: flex;
+  justify-content: space-evenly;
+}
+.headshot {
+  display: block;
+  margin: 2% auto;
+}
