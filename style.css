@@ -1,0 +1,45 @@
+:root {
+  --navy: #002147;
+}
+header {
+  background-color: var(--navy);
+  min-height: 75px;
+  border-bottom: 2px solid var(--navy);
+}
+.logo {
+  font-size: 210%;
+  color: white;
+  padding: 2%;
+}
+.logo::before {
+  content: "🎹 ";
+}
+nav {
+  text-align: right;
+  padding: 1%;
+  border-bottom: 2px solid var(--navy);
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 2%;
+  padding: 0.5%;
+  border: 1px dashed var(--navy);
+  border-radius: 5px;
+}
+main {
+  min-height: 900px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+h2 {
+  font-size: 200%;
+  text-align: center;
+  margin-top: 5%;
+  color: var(--navy);
+}
+.link:hover {
+  border: 2px dashed var(--navy);
+}
